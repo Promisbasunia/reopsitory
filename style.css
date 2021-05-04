@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearefix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.manu-section{
+    text-align: center;
+    margin-top: 5px;
+
+}
+.manu-section ul{
+
+}
+.manu-section ul li{
+    display: inline-block;
+    margin: 9px;
+    list-style: none;
+    padding: 10px 12px;
+    background-color: #DDDDDD;
+}
+.manu-section ul li a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-weight: 600;
+
+}
+.manu-section ul li a:hover{}
+
+
+
+/* this is section-2 */
+/* this is section-2 */
+
+.section-2{
+    text-align: center;
+    margin: 50px;
+    background-color: #ddd;
+    padding: 50px;
+}
+.section-2 h1{
+    padding-bottom: 20px;
+    color: #A52A2A;
+}
+.section-2 p{
+    color: #0E051A;
+}
+
+/* this is section-3 */
+/* this is section-3 */
+
+.img-section{
+    width: 40%;
+    float: left;
+}
+.img-section img{
+    max-width: 100%;
+
+}
+
+.mokles-section{
+    width: 60%;
+    float: right;
+}
+.mokles-section .part-1 h2{
+    background-color: #ddd;
+    padding-left: 200px;
+}
+.mokles-section h3, h4, h5, p, ul {
+    padding-left: 200px;
+}
+.mokles-section h3{
+    color:#A52A2A;
+    padding-top: 5px;
+}
+.mokles-section h5 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.mokles-section h4{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* End mokles-section */
+.service-section{
+    text-align: center;
+}
+.service-btn h1{
+    text-align: center;
+    background-color: #ddd;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px  30px;
+    border: 1px solid #000;
+}
+.service-section .box h1{
+    text-align: center;
+}
+.service-section .box{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    padding:30px 20px;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    background-color: #ddd;
+}
+
+.service-section .box p{
+    padding: 0;
+}
+
+.footer-section p{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* End mokles-section */
+.footer-section{
+    text-align: center;
+    background-color: #ddd;
+    padding: 20px 0;
+    border-top: 4px solid #000;
+}
+
